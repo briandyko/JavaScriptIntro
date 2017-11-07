@@ -3,18 +3,27 @@
 <head>
     <title>JavaScript Intro</title>
 	<meta charset="utf-8" />
-    <script src="JavaScript.js"></script>
+    <script src="scripts/JavaScript.js"></script>
 </head>
 <body>
-    <script>
+    <!--<script>
         alert("Hello!");
-    </script>
+    </script>-->
     <h1>JavaScript Intro</h1>
-    <div>
+    <div id="sectionOne">
         <p>
             Pellentesque sit amet condimentum orci. Donec quis ultricies velit, at vulputate lorem. Pellentesque dictum massa ac lectus gravida egestas. Quisque dapibus ipsum vitae quam consectetur sagittis. Phasellus sit amet bibendum mauris. Mauris aliquet laoreet ante ac porta. Suspendisse potenti. Sed sed risus quis tortor fringilla lobortis. Praesent nulla purus, vehicula non erat eu, iaculis tempor diam. Praesent ut augue nec ipsum imperdiet hendrerit.
         </p>
+    </div>
+    <button onclick="updateDiv()">Update Div</button>\
+
+    <img onmouseover="swap()" id="swapImage" src="images/isaiah.jpg" height="500" width="500" />
+    <button onclick="swap()" >Swap Image</button>
+
+    <div id="sectionTwo">
 
     </div>
+    <button onclick="printArray()" >Print Array</button>
+
 </body>
 </html>
